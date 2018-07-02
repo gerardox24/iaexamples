@@ -15,3 +15,7 @@ Modelo = custom.fit(Grafo,dist = list(X=MX,Y1=MY1))
 Modelo
 cpquery(Modelo,X=='si',TRUE)
 cpquery(Modelo,X=='si',Y1=='si')
+
+#T. BAYES
+P(A|B)=P(AnB)/P(B)
+
